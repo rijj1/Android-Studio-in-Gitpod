@@ -1,9 +1,12 @@
 github:
-  prebuilds:
-    pullRequestsFromForks: true
-    addComment: true
-    addBadge: true
-    addLabel: prebuilt-in-gitpod
+    prebuilds:
+        master: true
+        branches: true
+        pullRequests: true
+        pullRequestsFromForks: true
+        addComment: true
+        addBadge: true
+        addLabel: prebuilt-in-gitpod
 
 checkoutLocation: work
 workspaceLocation: /
