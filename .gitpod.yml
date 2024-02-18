@@ -1,0 +1,17 @@
+github:
+  prebuilds:
+    pullRequestsFromForks: true
+    addComment: true
+    addBadge: true
+    addLabel: prebuilt-in-gitpod
+
+checkoutLocation: work
+workspaceLocation: /
+image:
+  file: Dockerfile
+ports:
+  - port: 6080
+    protocol: "http"
+tasks:
+#  - command: "go get -v ./... && go run main.go"
+  - command: "echo hi"
