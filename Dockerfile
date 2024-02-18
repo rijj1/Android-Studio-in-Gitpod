@@ -52,7 +52,7 @@ RUN \
   sudo mkdir -p /workspace/.gradle && \
   sudo chown -R gitpod:gitpod /workspace
 
-ARG ANDROID_INSTALLATION_URL=https://github.com/rijj1/Android_Studio/releases/download/Android_Studio_Files/android-studio-installation.tar.xz
+ARG ANDROID_INSTALLATION_URL=https://github.com/rijj1/Android-Studio-in-Gitpod/releases/download/Android_Studio_Files/android-studio-installation.tar.xz
 
 RUN \
   cd $HOME && \
