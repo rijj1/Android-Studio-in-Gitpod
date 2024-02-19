@@ -9,4 +9,4 @@ workspaceLocation: /
 tasks:
   - command: |
       echo "Excluding unnecessary files..."
-      rm -rf images LICENSE README.md
+      rm -rf work/images work/LICENSE work/README.md
