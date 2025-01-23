@@ -9,8 +9,9 @@ A Docker image designed to run Android Studio 2023.1.1 as a cloud-based IDE in g
 
 ## Usage
 ### Method 1: 
-1. Just click the button to open to run in Gitpod:<br><br>
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/rijj1/Android_Studio_in_Gitpod)
+1. Just click the button to open to run in Gitpod or Codeanywhere:<br><br>
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/rijj1/Android_Studio_in_Gitpod) 
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/rijj1/Android_Studio_in_Gitpod) 
 
 2. In the terminal where you have the container running, enter `android_studio`, and Android Studio should start in the browser tab.
 
