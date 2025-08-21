@@ -1,7 +1,7 @@
 FROM gitpod/workspace-full-vnc@sha256:331a933c3bce7d7cb3e78f8cfac93ae706091575758adeba3a86072d585e52b0
 
-ARG ANDROID_STUDIO_URL=https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2023.1.1.28/android-studio-2023.1.1.28-linux.tar.gz
-ARG ANDROID_STUDIO_VERSION=2023.1.1
+ARG ANDROID_STUDIO_URL=https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2025.1.2.12/android-studio-2025.1.2.12-linux.tar.gz
+ARG ANDROID_STUDIO_VERSION=2025.1.2.12
 
 USER root
 
@@ -29,7 +29,7 @@ RUN dpkg --add-architecture i386 && \
 RUN \
   wget -O /opt/android-studio-ide.tar.gz $ANDROID_STUDIO_URL && \
   export sha="$(sha256sum /opt/android-studio-ide.tar.gz)" ; \
-  if [ "$sha" != "139d0dbb4909353b68fbf55c09b6d31a34512044a9d4f02ce0f1a9accca128f9  /opt/android-studio-ide.tar.gz" ]; then \
+  if [ "$sha" != "7cb8c26c1f56c2bc7bb226104e6b56bdc7bef137584de6becba1d3b524d85806  /opt/android-studio-ide.tar.gz" ]; then \
       echo "SHA-256 Checksum mismatch, aborting installation"; \
       rm -f /opt/android-studio-ide.tar.gz; exit 1; \
     else \
