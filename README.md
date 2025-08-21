@@ -1,6 +1,6 @@
 # Android Studio in Gitpod
-A Docker image designed to run Android Studio 2023.1.1 as a cloud-based IDE in gitpod.<br>
-<center><img src='images/Android-Studio-Hedgehog.png'></center>
+A Docker image designed to run Android Studio 2025.1.2 as a cloud-based IDE in gitpod.<br>
+<center><img src='images/android-studio-narwhal-feature-drop.png'></center>
 
 ## Current status
 -   Works fine.
